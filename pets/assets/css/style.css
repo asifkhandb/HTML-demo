@@ -1,0 +1,215 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+.cozy_house .navbar-toggler {
+  background-color: #b00fe1;
+}
+.cozy_house .navbar-toggler .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.cozy_clr {
+  color: #f1cdb3;
+}
+.cozy_house {
+  background-image: linear-gradient(
+    to right top,
+    #382a23,
+    #332524,
+    #2c2124,
+    #231e22,
+    #1c1b1e
+  );
+}
+.our_petsclr {
+  color: #a1a0a1;
+}
+.cozy_house .nav-item.active {
+  color: #a1a0a1;
+  background-color: unset;
+  /* border-bottom: solid #f1cdb3; */
+}
+.about_the_clr {
+  border-bottom: solid #f1cdb3;
+}
+.people_clr {
+  color: white;
+  top: 10%;
+}
+.lorem_clr {
+  color: #b5b5b5;
+}
+.btn_clr {
+  color: #f1cdb3;
+  background-color: #f1cdb3;
+}
+.btn:hover {
+  color: unset;
+}
+.top_down {
+  top: 20%;
+}
+.about_the_shelter_clr {
+  color: #a6a6a6;
+}
+.lorem_paragraph {
+  margin-right: 20%;
+  margin-left: 0;
+  color: #a0a0a0;
+}
+.loremipsum_clr {
+  color: #cacaca;
+}
+.our_friend_clr {
+  color: #989898;
+}
+.OurShelter {
+  background-color: #fafafa;
+}
+.help_clr {
+  color: #545454;
+}
+.pet_content {
+  font-size: 60px;
+  color: #f3d7c2;
+}
+.icon_second {
+  margin-left: 13%;
+  margin-right: 12%;
+}
+.InAddition {
+  background-color: #f6f6f6;
+}
+.addition_clr {
+  color: #545454;
+}
+.footer {
+  background-image: linear-gradient(
+    to right top,
+    #382a23,
+    #332524,
+    #2c2124,
+    #231e22,
+    #1c1b1e
+  );
+}
+.clr_ftr {
+  color: #dfbea6;
+  font-size: 20px;
+  justify-items: auto;
+}
+.email_size {
+  font-size: 16px;
+  color: #dfbea6;
+}
+.vitamins_mrg {
+  margin-left: 15%;
+  margin-right: 0;
+}
+.sleeping_mrg {
+  margin-right: 8%;
+}
+
+/* slick slider  */
+
+/*Обнуление*/
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 50px 10px;
+  }
+}
+
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+}
+
+@media (max-width: 767px) {
+  .slider {
+    padding: 0px 40px;
+  }
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+}
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("https://img.icons8.com/ios/50/000000/long-arrow-left.png") 0
+    0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("https://img.icons8.com/ios/50/000000/long-arrow-right.png") 0
+    0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+.slider__item {
+  padding: 0px 15px;
+}
+.slider__item img {
+  max-width: 100%;
+  height: 300px;
+}
+.learn_more {
+  margin-right: 0;
+  width: 210px;
+  padding: 10px;
+}
+@media (max-width: 575.98px) {
+  .learn_more {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .learn_more {
+    width: 100%;
+  }
+}
+.rest_button {
+  color: black;
+  border-color: #dfbea6;
+}
+.rest_bgs {
+  background-color: #f1cdb3;
+}
