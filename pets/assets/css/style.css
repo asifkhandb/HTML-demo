@@ -2,26 +2,18 @@
   padding: 0;
   margin: 0;
 }
-.navzy {
-  min-height: 75px;
-}
-.navzyies {
-  min-height: 75px;
-}
 .our_petsclr:hover {
   color: #f1cdb3;
-  border-bottom: solid 2px #f1cdb3;
-}
-.cozy_house .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 25px;
+  text-decoration: underline;
+  text-decoration-color: #f1cdb3;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
 }
 .cozy_clr {
   color: #f1cdb3;
-  min-height: 75px;
 }
 .cozy_clr:hover {
   color: #f1cdb3;
-  min-height: 75px;
 }
 .cozy_house {
   background-image: url(../images/bg-dog.jpg);
@@ -29,10 +21,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 .our_petsclr {
   color: #a1a0a1;
+  margin: 0px 12px 0px 12px;
+  display: unset;
 }
 .not_people {
   width: 225px;
@@ -53,6 +47,9 @@
 .top_down {
   top: 20%;
 }
+.About-the-Shelter {
+  background-color: #fafafa;
+}
 .about_the_shelter_clr {
   color: #a6a6a6;
 }
@@ -64,6 +61,9 @@
 .loremipsum_clr {
   color: #cacaca;
   font-style: italic;
+}
+.ourFriends {
+  background-color: #f6f6f6;
 }
 .our_friend_clr {
   color: #989898;
@@ -77,6 +77,7 @@
 }
 .OurShelter {
   background-color: #fafafa;
+  height: 500px;
 }
 .help_clr {
   color: #545454;
@@ -84,7 +85,7 @@
   display: inline-block;
 }
 .pet_content {
-  font-size: 60px;
+  font-size: 40px;
   color: #f3d7c2;
 }
 .InAddition {
@@ -237,6 +238,7 @@
 }
 .suggestion_hvr:hover {
   color: #dfbea6;
+  text-decoration: none;
 }
 .boston_cntrl {
   width: 176px;
