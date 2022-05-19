@@ -1,46 +1,46 @@
-/* * {
+* {
   padding: 0;
   margin: 0;
-} */
-a:hover {
-  color: #f1cdb3;
 }
-.nav-item a:hover {
+.navzy {
+  min-height: 75px;
+}
+.navzyies {
+  min-height: 75px;
+}
+.our_petsclr:hover {
   color: #f1cdb3;
+  border-bottom: solid 2px #f1cdb3;
+}
+.cozy_house .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 25px;
 }
 .cozy_clr {
   color: #f1cdb3;
+  min-height: 75px;
+}
+.cozy_clr:hover {
+  color: #f1cdb3;
+  min-height: 75px;
 }
 .cozy_house {
-  background-image: linear-gradient(
-    to right top,
-    #382a23,
-    #332524,
-    #2c2124,
-    #231e22,
-    #1c1b1e
-  );
+  background-image: url(../images/bg-dog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
 }
 .our_petsclr {
   color: #a1a0a1;
-}
-.cozy_house .nav-item.active {
-  color: #a1a0a1;
-  background-color: unset;
-  /* border-bottom: solid #f1cdb3; */
-}
-.About-the-Shelter {
-  background-color: #faf6fa;
-}
-.about_the_clr {
-  border-bottom: solid #f1cdb3;
 }
 .not_people {
   width: 225px;
 }
 .people_clr {
   color: white;
-  top: 10%;
+  position: relative;
+  top: 35%;
 }
 .lorem_clr {
   color: #b5b5b5;
@@ -48,9 +48,7 @@ a:hover {
 .btn_clr {
   color: #f1cdb3;
   background-color: #f1cdb3;
-}
-.btn:hover {
-  color: unset;
+  padding: 10px;
 }
 .top_down {
   top: 20%;
@@ -109,7 +107,7 @@ a:hover {
 .clr_ftr {
   color: #dfbea6;
   font-size: 20px;
-  justify-items: auto;
+  /* justify-items: auto; */
 }
 .email_size {
   font-size: 16px;
@@ -166,13 +164,11 @@ a:hover {
   position: relative;
   padding: 0px 60px;
 }
-
 @media (max-width: 767px) {
   .slider {
     padding: 0px 40px;
   }
 }
-
 .slider .slick-arrow {
   position: absolute;
   top: 50%;
@@ -203,6 +199,9 @@ a:hover {
   max-width: 100%;
   height: 300px;
 }
+.rest_button:hover {
+  background-color: #f1cdb3;
+}
 .learn_more {
   margin-right: 0;
   width: 210px;
@@ -222,20 +221,24 @@ a:hover {
   color: black;
   border-color: #dfbea6;
 }
-.rest_bgs {
-  background-color: #f1cdb3;
-}
 .for-question {
   width: 210px;
 }
 .we_waiting {
   width: 190px;
 }
-/* .footer_suggestion {
-  background-image: url(../images/dogs.png);
-  background-repeat: no-repeat;
+.footer {
+  background-image: url(../images/dogsplash.jpg);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 300px;
-} */
+}
+.suggestion_hvr:hover {
+  color: #dfbea6;
+}
+.boston_cntrl {
+  width: 176px;
+  display: block;
+}
