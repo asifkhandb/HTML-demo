@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header-bg-banner {
+  background-image: url(../images/bgimaeone.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
+.menu-brand {
+  font-size: 32px;
+}
+.menu-tab li {
+  padding: 0px 10px 0px 10px;
+  font-size: 19px;
+}
+.menu-tab ul li a:hover {
+  /* background-color: #00d664; */
+  color: #00d664;
+}
+.header-link {
+  color: red;
+}
+.header-link:hover {
+  color: #00d664 !important;
+}
+.menubg-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 344px;
+  margin-top: 10%;
+}
+.menuEn_tab {
+  border: 1px solid #00d664;
+}
+.menu_tab_buttonEn :hover {
+  color: #00d664;
+}
+.client_tab {
+  width: 150px;
+  height: 100px;
+}
+.working_tab {
+  width: 52%;
+  text-align: center;
+}
+.working_tab_item {
+  width: 82%;
+  text-align: center;
+}
+.working_tab_icon {
+  font-size: 45px;
+  color: #00d664;
+}
+.working_cardbg {
+  background-color: #fcfcfe;
+}
+.working_card {
+  border: unset;
+}
+.working_card {
+  /* box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 15px 1px; */
+  box-shadow: 0 0px 1px rgb(0 0 0 / 15%);
+}
+.working_card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.working_secondcard {
+  width: 34%;
+}
+.working-secondcard {
+  width: 62%;
+}
+.working_thirdcard {
+  width: 37%;
+}
+.working_fourcard {
+  width: 36%;
+}
+.client_tab_card {
+  width: 23%;
+}
+.underline-end > span {
+  padding-bottom: 2px;
+  border-bottom: 5px solid #00d664;
+}
+.clients_pic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.footer_bg {
+  background-color: #273043;
+}
+.contact_footer_text {
+  color: #555f6d;
+}
+.contact_social_size {
+  font-size: 28px;
+}
+.contact_button {
+  padding: 14px 30px 14px 30px;
+  box-shadow: none;
+}
+.no_border {
+  border: 0;
+  box-shadow: unset;
+}
+.contact_form {
+  outline: none;
+}
+.border-bottom {
+  border-bottom: 1px solid #c0c1c270 !important;
+}
+.contact_border {
+  border: 1px solid #c0c1c230;
+}
+.footer_item_working {
+  line-height: 40px;
+}
+.footer_mail {
+  position: relative;
+  display: flex;
+}
+.footer_icon {
+  position: absolute;
+  left: 47%;
+  top: -6%;
+  font-size: 32px;
+}
+.footer_icon a {
+  color: gray;
+}
+.footer_icon :hover {
+  color: #00d664;
+}
+.footer_tab_email {
+  width: 60%;
+  padding: 25px 0px 25px 5px;
+  border: unset;
+  box-shadow: none;
+  background-color: #000;
+}
+.footer_tab_email:focus {
+  background-color: #000;
+  box-shadow: none;
+}
+.footer_content_color {
+  color: gray;
+}
+.footer_content_color:hover {
+  color: #00d664;
+}
+.footer_contact_text {
+  color: gray;
+}
+.footer_end_text {
+  font-size: 20px;
+  color: gray;
+}
