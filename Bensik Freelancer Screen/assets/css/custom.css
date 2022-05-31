@@ -1,3 +1,41 @@
+/* FONT STYLES  */
+
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../fonts/Roboto-Regular/roboto-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Roboto-Regular/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-roboto {
+  font-family: "roboto-regular";
+}
+.font-roboto-bold {
+  font-family: "roboto-regular";
+  font-weight: 700;
+}
+/* FONT STYLES  */
+
+/* Font Style lato  */
+@font-face {
+  font-family: "lato-regular";
+  src: url("../fonts/lato-regular/lato-regular-webfont.woff2") format("woff2"),
+    url("../fonts/lato-regular/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-lato {
+  font-family: "lato-regular";
+}
+.font-lato-bold {
+  font-family: "lato-regular";
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* Font Style lato  */
+
 * {
   padding: 0;
   margin: 0;
@@ -35,13 +73,16 @@
   width: 100%;
   height: 100%;
   max-width: 344px;
-  margin-top: 10%;
+  margin-top: 6%;
 }
 .menuEn_tab {
   border: 1px solid #00d664;
 }
 .menu_tab_buttonEn :hover {
   color: #00d664;
+}
+.menu-header-buttonEn {
+  border: 1px solid gray;
 }
 .client_tab {
   width: 150px;
@@ -63,15 +104,15 @@
   background-color: #fcfcfe;
 }
 .working_card {
-  border: unset;
-}
-.working_card {
-  /* box-shadow: rgba(0, 0, 0, 0.133) 0px 0px 15px 1px; */
   box-shadow: 0 0px 1px rgb(0 0 0 / 15%);
+  background-color: #fcfcfe;
+  border: unset;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .working_card:hover {
   transform: scale(1.1);
   z-index: 1;
+  background-color: #fff;
 }
 .working_secondcard {
   width: 34%;
@@ -80,10 +121,10 @@
   width: 62%;
 }
 .working_thirdcard {
-  width: 37%;
+  width: 37.5%;
 }
 .working_fourcard {
-  width: 36%;
+  width: 35%;
 }
 .client_tab_card {
   width: 23%;
@@ -97,17 +138,34 @@
   width: 50px;
   height: 50px;
 }
+.clients_card {
+  background-color: #fcfcfe;
+}
+.clients_card:hover {
+  background-color: #fff;
+}
 .footer_bg {
   background-color: #273043;
 }
 .contact_footer_text {
   color: #555f6d;
 }
+.contact_footer_tab {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-radius: unset !important;
+  padding: 0;
+  color: white !important;
+}
 .contact_social_size {
   font-size: 28px;
+  color: white;
 }
-.contact_button {
-  padding: 14px 30px 14px 30px;
+.footer_button {
+  padding: 8px 30px 8px 30px;
   box-shadow: none;
 }
 .no_border {
@@ -132,12 +190,12 @@
 }
 .footer_icon {
   position: absolute;
-  left: 47%;
+  left: 48%;
   top: -6%;
   font-size: 32px;
 }
 .footer_icon a {
-  color: gray;
+  color: #00d664;
 }
 .footer_icon :hover {
   color: #00d664;
@@ -148,6 +206,7 @@
   border: unset;
   box-shadow: none;
   background-color: #000;
+  color: white !important;
 }
 .footer_tab_email:focus {
   background-color: #000;
@@ -163,6 +222,12 @@
   color: gray;
 }
 .footer_end_text {
-  font-size: 20px;
+  font-size: 18px;
   color: gray;
+}
+.formValidation .has-error .help-block {
+  color: #d06868;
+  font-size: 12px;
+  line-height: 1.1;
+  font-style: italic;
 }

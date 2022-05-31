@@ -1,6 +1,15 @@
 /* mobile CSS */
 
 @media (max-width: 480px) {
+  .header-bg-banner {
+    background-image: url(../images/bgimaeone.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100% !important;
+    height: 100%;
+  }
 }
 
 @media (max-width: 767px) {
