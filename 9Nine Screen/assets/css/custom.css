@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nine-nav-logo {
+  width: 100px;
+  height: 70px;
+}
+.header-link {
+  color: black !important;
+  padding: 0;
+  overflow: hidden;
+}
+.header-link:hover {
+  color: gray !important;
+  border: 1.5px solid gray;
+}
+.header-banner-image {
+  width: 215px;
+  height: 254px;
+}
+.firstbanner-card {
+  width: 150px;
+  border: 2px solid #000;
+}
+.firstbanner-cardtext {
+  font-size: 10px;
+}
+.About-Agency {
+  background-color: #f4f4f6;
+}
+.secondbanner-card {
+  box-shadow: 0px 0px 15px 1px #00000122;
+  border: unset;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.secondbanner-card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.ourservices-bg {
+  background-image: linear-gradient(#494a4f, #494a4f),
+    url(../images/officemeetingpicture.jpg);
+  background-blend-mode: saturation;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.ourservices-card {
+  background-color: transparent;
+  width: 200px;
+  height: 258px;
+  border: 3px solid whitesmoke;
+  position: absolute;
+  top: 22%;
+  left: 30%;
+}
+.ourservices-icon-size {
+  max-width: 100%;
+}
+.ourservices_icon {
+  font-size: 40px;
+}
+.workprocess-banner-icon {
+  font-size: 40px;
+}
+
+/* progress    */
+
+.step {
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #d0d0d0;
+  background: #ffffff;
+}
+.workprocess-progressbar-buttonone {
+  border: none;
+  background-color: transparent;
+}
+.services-border {
+  border: 2px solid #d0d0d0;
+  width: 253px;
+}
+
+/* progress   */
+
+.Latest-work {
+  background-color: #f4f4f6;
+}
