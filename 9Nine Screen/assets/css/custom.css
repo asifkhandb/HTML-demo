@@ -60,13 +60,13 @@ body {
   z-index: 1;
 }
 .ourservices-bg {
-  background-image: linear-gradient(#494a4f, #494a4f),
-    url(../images/officemeetingpicture.jpg);
+  background-image: url(../images/officemeetingpicture.jpg);
   background-blend-mode: saturation;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 500px;
+  opacity: 0.6;
 }
 .ourservices-card {
   background-color: transparent;
@@ -187,13 +187,13 @@ body {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 .Clientservices-bg {
-  background-image: linear-gradient(#494a4f, #494a4f),
-    url(../images/officeclientimage.jpg);
+  background-image: url(../images/officeclientimage.jpg);
   background-blend-mode: saturation;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 500px;
+  opacity: 0.6;
 }
 .Clientservices-card {
   background-color: transparent;
@@ -259,12 +259,6 @@ li.slick-active button {
   line-height: 1.1;
   font-style: italic;
 }
-/* .form_name_contact {
-  width: 300px;
-} */
-/* .form_email_contact {
-  width: 300px;
-} */
 .message_form_box {
   max-width: 588px;
 }
@@ -286,6 +280,7 @@ li.slick-active button {
   top: 0;
   right: 25px;
   font-size: 20px;
+  z-index: 999;
 }
 .footer_email_bg:focus {
   background-color: #42424a;

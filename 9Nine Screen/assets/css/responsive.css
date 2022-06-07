@@ -32,6 +32,27 @@
   .Clientservices-card {
     left: 21%;
   }
+  .footer_email_arrow {
+    right: 4px;
+  }
+  .latest_work_image {
+    width: 270px;
+    height: 150px;
+  }
+
+  .latest_work_notebook_image {
+    width: 270px;
+    height: 150px;
+    margin-left: 15px;
+  }
+  .latest_work_computer_image {
+    width: 270px;
+    height: 150px;
+    margin-left: 15px;
+  }
+  .latest_work_frame_image {
+    max-width: 271px;
+  }
 }
 
 /* Tab CSS */
@@ -57,6 +78,15 @@
   .meet-our-creative-firstcard {
     width: 100%;
     height: 100%;
+  }
+  .latest_work_frame_image {
+    min-width: 141px;
+  }
+  .latest_work_diamond_image {
+    min-width: 142px;
+  }
+  .services-border {
+    max-width: 130px;
   }
 }
 
