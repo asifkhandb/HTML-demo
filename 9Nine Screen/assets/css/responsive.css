@@ -13,14 +13,64 @@
     width: 90%;
     max-width: fit-content;
   }
+  .bunder1 {
+    margin-left: 220px;
+  }
+  .bunder2 {
+    margin-left: 178px;
+  }
+  .bunder3 {
+    margin-left: 215px;
+  }
+  .card_content {
+    position: absolute;
+    padding: 0px 60px 0px 60px;
+  }
+  .ourservices-card {
+    left: 20%;
+  }
+  .Clientservices-card {
+    left: 21%;
+  }
 }
 
 /* Tab CSS */
 @media (min-width: 768px) and (max-width: 991px) {
+  .bunder1 {
+    margin-left: 260px;
+  }
+  .bunder2 {
+    margin-left: 190px;
+  }
+  .bunder3 {
+    margin-left: 230px;
+  }
+  .creative_team_socialicon {
+    padding: 0px 3px 0px 3px;
+  }
+  .ourservices-card {
+    left: 20%;
+  }
+  .Clientservices-card {
+    left: 21%;
+  }
+  .meet-our-creative-firstcard {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* Small Screen Desktop */
 @media (min-width: 992px) and (max-width: 1024px) {
+  .bunder1 {
+    margin-left: 360px;
+  }
+  .bunder2 {
+    margin-left: 265px;
+  }
+  .bunder3 {
+    margin-left: 320px;
+  }
 }
 
 /* Screen Desktop */
