@@ -53,6 +53,9 @@
   .latest_work_frame_image {
     max-width: 271px;
   }
+  .latestwork_picturesection {
+    width: 100%;
+  }
 }
 
 /* Tab CSS */
@@ -100,6 +103,9 @@
   }
   .bunder3 {
     margin-left: 320px;
+  }
+  .services-border {
+    max-width: 200px;
   }
 }
 
