@@ -1,0 +1,73 @@
+/* mobile CSS */
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 767px) {
+  .banner-heading-first {
+    font-size: 22px !important;
+    width: 100% !important;
+    top: 20% !important;
+  }
+  .banner_heading_second {
+    width: 100%;
+    font-size: 24px !important;
+    top: 30% !important;
+    left: 15% !important;
+  }
+  .banner-heading-third {
+    font-size: 22px !important;
+    width: 100% !important;
+    top: 20% !important;
+  }
+  .swiper {
+    width: 250px !important;
+    height: 300px !important;
+    margin-left: 20px !important;
+  }
+  .swiper_content_text {
+    width: 82% !important;
+    top: 47px !important;
+    left: 70px !important;
+    font-size: 15px !important;
+  }
+  .gentium_plusregular {
+    font-size: 20px !important ;
+  }
+  .swiper_slide_button {
+    padding: 0px 12px 0px 12px !important;
+  }
+}
+
+/* Tab CSS */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-heading-first {
+    font-size: 32px !important;
+    width: 100% !important;
+    top: 36% !important;
+  }
+  .banner_heading_second {
+    width: 100%;
+    font-size: 24px !important;
+    top: 40% !important;
+    left: 15% !important;
+  }
+  .banner-heading-third {
+    font-size: 32px !important;
+    width: 100% !important;
+    top: 35% !important;
+  }
+  /* .swiper {
+    width: 250px !important;
+    height: 300px !important;
+    margin-left: 20px !important;
+  } */
+}
+
+/* Small Screen Desktop */
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+/* Screen Desktop */
+@media (max-width: 1280px) {
+}

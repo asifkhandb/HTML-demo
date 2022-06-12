@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* font style   */
+
+@font-face {
+  font-family: "robotoregular";
+  src: url("roboto-regular-webfont.woff2") format("woff2"),
+    url("roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.roboto-regular {
+  font-family: "robotoregular";
+  font-weight: 600;
+}
+.roboto-regular-bold {
+  font-family: "robotoregular";
+  font-weight: 600;
+  font-size: 22px;
+}
+@font-face {
+  font-family: "gentium_plusregular";
+  src: url("gentiumplus-regular-webfont.woff2") format("woff2"),
+    url("gentiumplus-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.gentium_plusregular {
+  font-family: "gentium_plusregular";
+  font-weight: 600;
+  font-size: 32px;
+}
+.gentium_plusregular-bold {
+  font-family: "gentium_plusregular";
+  font-weight: 600;
+}
+
+/* font style   */
+
+.hexaware_logo {
+  width: 50px;
+  height: 40px;
+}
+main {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header_content_menu_top {
+  position: absolute;
+}
+.header_link_top {
+  background-color: transparent;
+  transition: all 0.5s linear;
+  height: 82px;
+}
+.header_link_top:hover {
+  background-color: white;
+  transition: all 0.5s linear;
+}
+.header_link_top.header_nav_link:hover {
+  color: #000;
+}
+.header_link_tab ul li {
+  padding: 0px 10px 0px 10px;
+}
+.header_link_tab ul li a {
+  color: #ffffff !important;
+}
+.header_link_tab ul li a:hover {
+  color: #0056b3 !important;
+  text-decoration: underline;
+  text-decoration-color: #0056b3;
+  text-underline-offset: 35px;
+  text-decoration-thickness: 2px;
+  transition: ease 0.5s;
+}
+
+.header_navbar_social_icon {
+  font-size: 22px;
+}
+/* .header_link_top .navbar .header_link_tab .navbar-nav .nav-link {
+  border: 1px solid red !important;
+  color: #fff;
+  background-color: transparent;
+}
+.header_link_top .navbar .header_link_tab .navbar-nav:hover {
+  border: 1px solid red !important;
+  color: red;
+} */
+/* .header_link_top .navbar .header_link_tab .navbar-nav .nav-item:hover {
+  color: #000 !important;
+} */
+/* .header_nav_link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  text-decoration-color: #0056b3;
+  text-underline-offset: 35px;
+  text-decoration-thickness: 2px;
+  transition: ease 0.5s;
+} */
+.first_banner_header_bg {
+  background-image: url(../images/bannerfirstimageheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+  border-radius: 0 0 50px 50px;
+}
+.second_banner_header_bg {
+  background-image: url(../images/bannerimagethreebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+  border-radius: 0 0 50px 50px;
+}
+.third_banner_header_bg {
+  background-image: url(../images/thirdbannerbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+  border-radius: 0 0 50px 50px;
+}
+.banner-heading-first {
+  font-size: 60px;
+  width: 70%;
+  position: relative;
+  top: 22%;
+}
+.banner_heading_second {
+  font-size: 30px;
+  position: absolute;
+  top: 56%;
+  left: 27%;
+}
+.banner-heading-third {
+  font-size: 60px;
+  width: 65%;
+  position: relative;
+  top: 22%;
+}
+.banner_slider_second_tab_button {
+  padding: 5px 35px 5px 35px;
+}
+.banner_slider_secondthird_tab_button {
+  padding: 5px 22px 5px 22px;
+}
+
+/* swipper slide   */
+
+.swiper {
+  position: initial !important;
+  width: 400px;
+  height: 400px;
+  margin-left: 85px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  /* transform: translateY(-125px); */
+}
+.swiper_arrow_pagination {
+  position: absolute;
+  border: 1px solid #000;
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 70%;
+  left: 55%;
+  z-index: 999;
+}
+.swiper_one_content {
+  background-image: url(../images/left-quote-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+}
+.swiper_content_text {
+  position: absolute;
+  width: 82%;
+  top: 47px;
+  left: 70px;
+}
+.swiper_slide_button {
+  padding: 6px 30px 8px 30px;
+}
+/* swipper slide   */
+
+/* fancybox css  */
+
+.card:focus,
+img:focus,
+a:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.image-size {
+  height: 200px;
+  width: 100%;
+}
+/* fancybox css  */
