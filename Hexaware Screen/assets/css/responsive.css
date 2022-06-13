@@ -62,6 +62,24 @@
     height: 300px !important;
     margin-left: 20px !important;
   } */
+  .solution-tab-second-text {
+    width: 100% !important;
+    top: 30% !important;
+    left: 10% !important;
+    font-size: 22px !important;
+  }
+  .solution-tab-four-text {
+    width: 100% !important;
+    top: 30% !important;
+    left: 10% !important;
+    font-size: 22px !important;
+  }
+  .solution-tab-third-text {
+    width: 100% !important;
+    top: 40% !important;
+    left: 1% !important;
+    font-size: 17px !important;
+  }
 }
 
 /* Small Screen Desktop */

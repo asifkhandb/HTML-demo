@@ -50,9 +50,26 @@ main {
   left: 0;
   right: 0;
 }
-.header_content_menu_top {
-  position: absolute;
+/* for sticky   */
+/* .nav-area {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: top 0.6s;
+  padding: 10px;
+  overflow: hidden;
 }
+.nav-area.animate {
+  top: -71px;
+}
+.nav-area.sticky {
+  top: 0;
+  z-index: 99;
+} */
+
+/* for sticky   */
+
 .header_link_top {
   background-color: transparent;
   transition: all 0.5s linear;
@@ -61,9 +78,6 @@ main {
 .header_link_top:hover {
   background-color: white;
   transition: all 0.5s linear;
-}
-.header_link_top.header_nav_link:hover {
-  color: #000;
 }
 .header_link_tab ul li {
   padding: 0px 10px 0px 10px;
@@ -83,26 +97,6 @@ main {
 .header_navbar_social_icon {
   font-size: 22px;
 }
-/* .header_link_top .navbar .header_link_tab .navbar-nav .nav-link {
-  border: 1px solid red !important;
-  color: #fff;
-  background-color: transparent;
-}
-.header_link_top .navbar .header_link_tab .navbar-nav:hover {
-  border: 1px solid red !important;
-  color: red;
-} */
-/* .header_link_top .navbar .header_link_tab .navbar-nav .nav-item:hover {
-  color: #000 !important;
-} */
-/* .header_nav_link:hover {
-  color: #0056b3;
-  text-decoration: underline;
-  text-decoration-color: #0056b3;
-  text-underline-offset: 35px;
-  text-decoration-thickness: 2px;
-  transition: ease 0.5s;
-} */
 .first_banner_header_bg {
   background-image: url(../images/bannerfirstimageheader.jpg);
   background-repeat: no-repeat;
@@ -209,7 +203,67 @@ a:focus {
 }
 
 .image-size {
-  height: 200px;
+  height: 315px;
   width: 100%;
+  border-radius: 0;
+}
+.solution-tab-second-text {
+  position: absolute;
+  width: 72%;
+  top: 18%;
+  left: 15%;
+  font-size: 32px;
+}
+
+.solution-tab-third-text {
+  position: absolute;
+  width: 84%;
+  top: 20%;
+  left: 13%;
+  font-size: 25px;
+}
+.solution-wrapper:hover .solution-tab-image-card {
+  background-color: #005aab;
+  color: #fff;
+}
+.solution-wrapper:hover .img-hover-zoom img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.solution-tab-four-text {
+  position: absolute;
+  width: 72%;
+  top: 20%;
+  left: 18%;
+  font-size: 32px;
+}
+.solution-first-button {
+  position: absolute;
+  top: 67%;
+  font-size: 20px;
+}
+.solution-first-button:hover {
+  color: #fff !important;
+}
+.solution-second-button {
+  position: absolute;
+  top: 75%;
+  font-size: 20px;
+}
+.solution-second-button:hover {
+  color: #fff;
+}
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+.video-button-icoon {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  font-size: 90px;
+  color: whitesmoke;
 }
 /* fancybox css  */

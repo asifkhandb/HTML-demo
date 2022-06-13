@@ -262,6 +262,8 @@
   transition: 0.3s opacity;
   transform: translate3d(0, 0, 0);
   z-index: 10;
+  left: 66%;
+  top: 64%;
 }
 .swiper-pagination.swiper-pagination-hidden {
   opacity: 0;
@@ -275,8 +277,8 @@
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
   bottom: 10px;
-  left: 0;
-  width: 100%;
+  /* left: 0;
+  width: 100%; */
 }
 .swiper-pagination-bullets-dynamic {
   overflow: hidden;
