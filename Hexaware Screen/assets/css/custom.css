@@ -30,8 +30,8 @@
 }
 .gentium_plusregular {
   font-family: "gentium_plusregular";
-  font-weight: 600;
-  font-size: 32px;
+  font-weight: 500;
+  font-size: 35px;
 }
 .gentium_plusregular-bold {
   font-family: "gentium_plusregular";
@@ -50,25 +50,21 @@ main {
   left: 0;
   right: 0;
 }
-/* for sticky   */
-/* .nav-area {
-  position: sticky;
-  left: 0;
-  top: 0;
-  width: 100%;
-  transition: top 0.6s;
-  padding: 10px;
-  overflow: hidden;
-}
-.nav-area.animate {
-  top: -71px;
-}
-.nav-area.sticky {
-  top: 0;
-  z-index: 99;
-} */
+/* for sticky  navbar */
 
-/* for sticky   */
+.slideUp {
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  transition: transform 0.5s ease-out;
+}
+
+.slideDown {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform 0.5s ease-out;
+}
+
+/* for sticky  navbar */
 
 .header_link_top {
   background-color: transparent;
@@ -151,7 +147,7 @@ main {
 
 /* swipper slide   */
 
-.swiper {
+.swiper-first {
   position: initial !important;
   width: 400px;
   height: 400px;
@@ -267,3 +263,157 @@ a:focus {
   color: whitesmoke;
 }
 /* fancybox css  */
+
+.hipas-tab {
+  /* position: relative; */
+  overflow: hidden;
+  width: 100%;
+}
+
+.hipas-image-bg {
+  background-image: url(../images/digital-hipas-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+.hipas-image-bg:hover {
+  transform: scale(1.2);
+}
+.hipas-card {
+  position: absolute;
+  background-color: #005aab;
+  height: 200px;
+  width: 368px;
+  top: 40%;
+  left: 54%;
+}
+.card-text {
+  font-size: 28px;
+}
+.card-text:hover {
+  text-decoration: none;
+}
+.card-automation {
+  width: 280px;
+  top: 30%;
+  position: absolute;
+  left: 54%;
+  border-radius: 0;
+}
+.automation-text-color {
+  color: #474c51;
+}
+.automation-text-color:hover {
+  color: #474c51;
+  text-decoration: none;
+}
+.Hipas-button-know {
+  color: #1f252b;
+  font-weight: 700;
+  font-size: 20px;
+}
+.hipas-offering-text {
+  position: absolute;
+  width: 100%;
+  max-width: 205px;
+  font-size: 68px;
+  font-weight: bold;
+  line-height: 56px;
+  line-break: anywhere;
+  top: 80%;
+  color: #ebebec;
+}
+.develop-badge-card {
+  position: absolute;
+  background-color: #000;
+  height: 200px;
+  width: 368px;
+  top: 40%;
+  left: 39%;
+}
+.card-text-develop {
+  font-size: 28px;
+}
+.card-text-develop:hover {
+  text-decoration: none;
+}
+
+.construction-road-card {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
+}
+.road-construction-card-image {
+  transition: all 1s ease;
+}
+.road-construction-card-image:hover {
+  transform: scale(1.1);
+}
+.card-badge-automation {
+  width: 280px;
+  height: 65px;
+  top: 25%;
+  position: absolute;
+  left: 39%;
+  border-radius: 0;
+  background-color: #f14f54;
+}
+.secondslider-swiper-arrow-pagination {
+  position: absolute;
+  border: 1px solid #000;
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 1%;
+  left: 77%;
+  z-index: 999;
+  border-radius: 5px;
+}
+
+/* .new-hover-img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 2s;
+}
+.google-circle {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 2s;
+} */
+
+.covid-card {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #0056b3;
+}
+.covid-text-safety {
+  font-size: 20px;
+}
+.covid-button {
+  font-size: 20px;
+}
+.thinkingaloud-button {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+.text-insight {
+  color: #ebebec;
+  font-size: 100px;
+  word-break: break-all;
+  font-weight: 900;
+}

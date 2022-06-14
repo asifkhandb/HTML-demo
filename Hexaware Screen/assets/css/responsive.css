@@ -37,6 +37,17 @@
   .swiper_slide_button {
     padding: 0px 12px 0px 12px !important;
   }
+  .hipas-card {
+    height: 200px !important;
+    width: 100% !important;
+    top: 40% !important;
+    left: 0% !important;
+  }
+  .card-automation {
+    width: 100% !important;
+    top: 30%;
+    left: 0% !important;
+  }
 }
 
 /* Tab CSS */
