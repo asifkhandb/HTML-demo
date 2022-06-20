@@ -4,6 +4,9 @@
 }
 
 @media (max-width: 767px) {
+  body {
+    width: 100%;
+  }
   .banner-heading-first {
     font-size: 22px !important;
     width: 100% !important;
@@ -21,7 +24,7 @@
     top: 20% !important;
   }
   .swiper {
-    width: 250px !important;
+    width: 100% !important;
     height: 300px !important;
     margin-left: 20px !important;
   }
@@ -32,7 +35,7 @@
     font-size: 15px !important;
   }
   .gentium_plusregular {
-    font-size: 20px !important ;
+    font-size: 22px !important ;
   }
   .swiper_slide_button {
     padding: 0px 12px 0px 12px !important;
@@ -48,11 +51,59 @@
     top: 30%;
     left: 0% !important;
   }
+  .banking-badge-card {
+    width: 100%;
+    left: 0%;
+  }
+  .doctor-badge-card {
+    width: 100%;
+    left: 0%;
+  }
+  .construction-road-card {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper_arrow_pagination {
+    display: none;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+  .image-size {
+    height: 315px;
+    width: 100%;
+    border-radius: 0;
+  }
+  .hipas-offering-text {
+    width: 100%;
+    font-size: 58px;
+    top: 87%;
+  }
+  .swiper-slide {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .text-doctor-stories {
+    font-size: 75px;
+  }
+  .handshake-badge-card {
+    position: absolute;
+    background-color: #0056b3;
+    height: 230px;
+    width: 386px;
+    top: 32%;
+    left: 36%;
+  }
 }
 
 /* Tab CSS */
 @media (min-width: 768px) and (max-width: 991px) {
-  .banner-heading-first {
+  s .banner-heading-first {
     font-size: 32px !important;
     width: 100% !important;
     top: 36% !important;
@@ -91,10 +142,105 @@
     left: 1% !important;
     font-size: 17px !important;
   }
+  .hipas-card {
+    height: 291px;
+    width: 221px;
+    top: 31%;
+  }
+  .card-automation {
+    width: 221px;
+  }
+  .gentium_plusregular {
+    font-size: 26px;
+  }
+  .covid-card {
+    width: 100%;
+    height: 100%;
+  }
+  .banking-card {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 300px;
+  }
+  .banking-badge-card {
+    width: 234px;
+    top: 25%;
+  }
+  .banking-badge {
+    top: 16%;
+  }
+  .text-insight {
+    font-size: 65px;
+  }
+  .doctor-badge-card {
+    height: 173px;
+    width: 368px;
+    top: 28%;
+    left: 20%;
+  }
+  .casestudy-badge {
+    top: 20%;
+    left: 20%;
+  }
+  .doctor-text-deepdrive {
+    font-size: 23px !important;
+  }
+  .text-doctor-stories {
+    font-size: 61px;
+    line-height: 70px;
+  }
 }
 
 /* Small Screen Desktop */
 @media (min-width: 992px) and (max-width: 1024px) {
+  .hipas-card {
+    left: 44%;
+  }
+  .card-automation {
+    left: 44%;
+  }
+  .banking-badge-card {
+    left: 38%;
+  }
+  .banking-badge {
+    left: 38%;
+  }
+  .doctor-badge-card {
+    top: 25%;
+    left: 37%;
+  }
+  .casestudy-badge {
+    top: 20%;
+    left: 37%;
+  }
+  .text-doctor-stories {
+    font-size: 98px;
+  }
+  .solution-tab-third-text {
+    font-size: 22px;
+  }
+  .develop-badge-card {
+    top: 24%;
+    left: 15%;
+  }
+  .card-badge-automation {
+    width: 252px;
+    top: 9%;
+    left: 15%;
+  }
+  .handshake-badge-card {
+    height: 210px;
+    width: 386px;
+    top: 14%;
+    left: 7%;
+  }
+  .professional-badge-card {
+    height: 222px;
+    width: 386px;
+    top: 20%;
+    left: 7%;
+  }
 }
 
 /* Screen Desktop */

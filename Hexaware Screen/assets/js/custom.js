@@ -51,7 +51,7 @@ window.addEventListener("scroll", function (e) {
 var swiper = new Swiper(".mySwiperSecond", {
   slidesPerView: 2.2,
   spaceBetween: 35,
-  slidesPerGroup: 3,
+  slidesPerGroup: 1,
   loop: false,
   loopFillGroupWithBlank: true,
   watchSlidesVisibility: true,
@@ -60,3 +60,101 @@ var swiper = new Swiper(".mySwiperSecond", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// third swiper slider
+
+var swiper = new Swiper(".myswiperthird", {
+  slidesPerView: 2.3,
+  spaceBetween: 35,
+  slidesPerGroup: 1,
+  loop: false,
+  loopFillGroupWithBlank: true,
+  watchSlidesVisibility: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+//  four swiper slider
+
+var swiper = new Swiper(".myswiperfour", {
+  slidesPerView: 2.3,
+  spaceBetween: 35,
+  slidesPerGroup: 1,
+  loop: false,
+  loopFillGroupWithBlank: true,
+  watchSlidesVisibility: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+// five swiper slider
+
+var swiper = new Swiper(".myswiperfive", {
+  slidesPerView: 3,
+  spaceBetween: 35,
+  slidesPerGroup: 1,
+  loop: false,
+  loopFillGroupWithBlank: true,
+  watchSlidesVisibility: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+// six swiper slider
+
+var swiper = new Swiper(".myswipersix", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: false,
+  loopFillGroupWithBlank: true,
+  watchSlidesVisibility: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+// seven swiper slider
+
+var swiper = new Swiper(".myswiperseven", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: false,
+  loopFillGroupWithBlank: true,
+  watchSlidesVisibility: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+//  counter-number-animated
+
+$(document).ready(function () {
+  $(".counter").counterUp({
+    delay: 1,
+    time: 120,
+  });
+});
+
+//  formValidation Contact form start
+
+if ($(".formValidation").length) {
+  $(".formValidation").bootstrapValidator({
+    feedbackIcons: {
+      valid: "glyphicon glyphicon-ok",
+      invalid: "form-remove",
+      validating: "glyphicon glyphicon-refresh",
+    },
+  });
+}
+
+//  formValidation Contact form end
