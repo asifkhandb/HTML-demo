@@ -633,17 +633,14 @@ a:focus {
   z-index: 999;
   border-radius: 5px;
 }
-section .grey-patch-color::before {
+.grey-patch-color {
   position: absolute;
-  /* background-color: #f4f4f4; */
-  background-image: -webkit-linear-gradient(#f4f4f4);
+  background-color: #f4f4f4;
   width: 50%;
   content: " ";
-  top: 0;
-  left: 0;
   height: 100%;
   transform: translate(50%);
-  z-index: 999;
+  z-index: -999;
   /* background: linear-gradient(0deg, white 20%, #f4f4f4 60%, white 20%); */
   /* height: 100vh;
   width: 100vw;

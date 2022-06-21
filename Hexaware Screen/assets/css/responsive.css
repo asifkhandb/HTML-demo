@@ -99,6 +99,22 @@
     top: 32%;
     left: 36%;
   }
+  .event-card-badge {
+    width: 100%;
+    height: 237px;
+    background-color: #0056b3;
+    top: 20%;
+    left: 0%;
+  }
+  .captcha-image {
+    position: relative;
+    top: -18%;
+    left: 10%;
+  }
+  .footer-social-icon ul li {
+    padding: 0px 18px 0px 18px;
+    font-size: 18px;
+  }
 }
 
 /* Tab CSS */
@@ -189,6 +205,17 @@
   .text-doctor-stories {
     font-size: 61px;
     line-height: 70px;
+  }
+  .captcha-image {
+    width: 99px;
+    position: absolute;
+    left: -32%;
+  }
+  .event-card-badge {
+    width: 100%;
+    height: 209px;
+    top: 15%;
+    left: 0%;
   }
 }
 
